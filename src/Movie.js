@@ -11,7 +11,7 @@ const Movie = ({title, poster, vote}) => {
                 {title}
             </h2>
             <h3>
-                {vote} / 5.0
+                {vote /2} / 5.0
             </h3>
             <img src={poster} alt={title} />
         </div>
